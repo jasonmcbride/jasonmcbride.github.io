@@ -1,0 +1,184 @@
+/* down arrow scroll */
+.arrow-wrap {
+  position:absolute;
+  z-index:1;
+  left:50%;
+  bottom:0;
+  margin-left:-5em;
+  background: none;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+
+  font-size:0.5em;
+  display:block;
+
+}
+
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 4em 0 4em;
+border-color: #e88c30 transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 3em 3em 0 3em;
+border-color: #d1f3fa transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+
+.hint {
+  position:absolute;
+  top:0.6em;
+  width:100%;
+  left:0;
+  font-size:2em;
+  font-style:italic;
+  text-align:center;
+  color:#fff;
+  opacity:0;
+}
+
+
+.arrow-wrap:hover .hint {
+  opacity:1;
+}
+
+
+  @-webkit-keyframes arrows {
+    0% { top:0; }
+    10% { top:12%; }
+    20% { top:0; }
+    30% { top:12%; }
+    40% { top:-12%; }
+    50% { top:12%; }
+    60% { top:0; }
+    70% { top:12%; }
+    80% { top:-12%; }
+    90% { top:12%; }
+    100% { top:0; }
+  }
+  
+  .arrow-wrap .arrow {
+    -webkit-animation: arrows 2.8s 0.4s;
+    -webkit-animation-delay: 3s;
+  }
+
+
+.eyes_close {
+	transform-origin: 50% 28% 0px; transform: scaleY(0.1);
+	-moz-transform-origin: 50% 28% 0px; transform: scaleY(0.1);
+	-webkit-transform-origin: 50% 28% 0px; transform: scaleY(0.1);
+	-o-transform-origin: 50% 28% 0px; transform: scaleY(0.1);
+	-ms-transform-origin: 50% 28% 0px; transform: scaleY(0.1);
+}
+
+.eyes_open {
+	transform-origin: 50% 50% 0px; transform: scaleY(1);
+	-moz-transform-origin: 50% 50% 0px; transform: scaleY(1);
+	-webkit-transform-origin: 50% 50% 0px; transform: scaleY(1);
+	-o-transform-origin: 50% 50% 0px; transform: scaleY(1);
+	-ms-transform-origin: 50% 50% 0px; transform: scaleY(1);
+}
+
+ /* Eyebrows animation */
+@keyframes raise_brows {
+	0% {		
+		transform: translate(0, 0);
+	}
+	50% {	
+		transform: translate(0, -1.5em);
+	}
+	100% {	
+		transform: translate(0, 0);
+	}
+}
+
+@-webkit-keyframes raise_brows {
+	0% {
+		-webkit-transform: translate(0, 0); /* Safari */
+	}
+	50% {
+		-webkit-transform: translate(0, -1.5em); /* Safari */		
+	}
+	100% {
+		-webkit-transform: translate(0, 0); /* Safari */
+	}
+}
+
+ /* Eyebrows animation */
+@-moz-keyframes raise_brows {
+	0% {
+		-moz-transform: translate(0, 0); /* mozilla */
+	}
+	50% {
+		-moz-transform: translate(0, -1.5em); /* mozilla */
+	}
+	100% {
+		-moz-transform: translate(0, 0); /* mozilla */
+	}
+}
+
+ /* Eyebrows animation */
+@-o-keyframes raise_brows {
+	0% {
+		-o-transform: translate(0, 0); /* opera */
+	}
+	50% {
+		-o-transform: translate(0, -1.5em); /* opera */
+	}
+	100% {
+		-o-transform: translate(0, 0); /* opera */
+	}
+}
+
+ /* Eyebrows animation */
+@-ms-keyframes raise_brows {
+	0% {
+		-ms-transform: translate(0, 0); /* IE 9 */
+	}
+	50% {
+		-ms-transform: translate(0, -1.5em); /* IE 9 */
+	}
+	100% {
+		-ms-transform: translate(0, 0); /* IE 9 */
+	}
+}
+
+.logo:hover #EyeBrow_Left, .logo:hover #EyeBrow_Right  {
+    -webkit-animation-name: raise_brows;
+    -webkit-animation-duration: 1s;
+	
+    -moz-animation-name: raise_brows;
+    -moz-animation-duration: 1s;
+	
+    -o-animation-name: raise_brows;
+    -o-animation-duration: 1s;
+	
+    -ms-animation-name: raise_brows;
+    -ms-animation-duration: 1s;
+	
+    animation-name: raise_brows;
+    animation-duration: 1s;
+}
+
+.openMouth {
+	transform-origin: 50% 53% 0px; transform: scaleY(5);
+	-moz-transform-origin: 50% 53% 0px; transform: scaleY(5);
+	-webkit-transform-origin: 50% 53% 0px; transform: scaleY(5);
+	-ms-transform-origin: 50% 53% 0px; transform: scaleY(5);
+	-o-transform-origin: 50% 53% 0px; transform: scaleY(5);
+};

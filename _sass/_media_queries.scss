@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1169px) {
+body {
+    font-size: 60%;
+}
+}
+@media only screen and (max-width: 1025px) {
+}
+@media only screen and (max-width: 768px) {
+body {
+    font-size: 50%;
+}
+.cta {
+    margin-bottom: 0;
+}
+.work a.three.columns {
+    float: left !important;
+
+    width: 50% !important;
+}
+
+.work a.three.columns:nth-child(2n+2) {
+    margin-right: 0 !important;
+}
+}
+@media only screen and (max-width: 569px) {
+body {
+    font-size: 45%;
+}
+.cta {
+	margin: 5em 0 5em;
+}
+a.contact {
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+    transform: rotate(0deg);
+	display:none;
+}
+.work a.three.columns {
+    float: left !important;
+
+    width: 100% !important;
+	margin-bottom: 3em;
+}
+h1.work {
+	display:none;
+}
+}
