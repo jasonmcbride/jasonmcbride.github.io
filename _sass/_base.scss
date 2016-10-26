@@ -95,6 +95,7 @@ header a {
 #header {
     margin-bottom: 14em;
     text-align: center;
+	position:relative;
 }
 #header nav a:hover {
     border-bottom: 5px solid #e88c30;
@@ -104,6 +105,7 @@ header a {
 #header h1 {
     clear: both;
     line-height: 1.4em;
+	margin-bottom: 1.5em;
 }
 #header h1 span {
     display: block;
