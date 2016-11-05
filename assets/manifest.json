@@ -1,9 +1,7 @@
 {
   "assets/javascripts/application.js": "assets/javascripts/application-4e1a1b3d.js",
   "assets/javascripts/head.js": "assets/javascripts/head-c276700c.js",
-  "assets/images/bringbacknumber8.png": "assets/images/bringbacknumber8-21f2c550.png",
   "assets/images/hand.png": "assets/images/hand-1c3cea1d.png",
-  "assets/images/saultsportsmedicine.png": "assets/images/saultsportsmedicine-53b822ae.png",
   "assets/images/favicon/android-icon-144x144.png": "assets/images/favicon/android-icon-144x144-7d016c19.png",
   "assets/images/favicon/android-icon-192x192.png": "assets/images/favicon/android-icon-192x192-d7340cae.png",
   "assets/images/favicon/android-icon-36x36.png": "assets/images/favicon/android-icon-36x36-1fbbc3d2.png",
@@ -28,5 +26,14 @@
   "assets/images/favicon/ms-icon-144x144.png": "assets/images/favicon/ms-icon-144x144-7d016c19.png",
   "assets/images/favicon/ms-icon-150x150.png": "assets/images/favicon/ms-icon-150x150-5839ee00.png",
   "assets/images/favicon/ms-icon-310x310.png": "assets/images/favicon/ms-icon-310x310-daffee18.png",
-  "assets/images/favicon/ms-icon-70x70.png": "assets/images/favicon/ms-icon-70x70-24a37827.png"
+  "assets/images/favicon/ms-icon-70x70.png": "assets/images/favicon/ms-icon-70x70-24a37827.png",
+  "assets/images/work/bringbacknumber8.png": "assets/images/work/bringbacknumber8-21f2c550.png",
+  "assets/images/work/christmasinnovember-min.png": "assets/images/work/christmasinnovember-min-df043116.png",
+  "assets/images/work/fairmontcareers-min.png": "assets/images/work/fairmontcareers-min-6c62cabf.png",
+  "assets/images/work/fairmontmountain-min.png": "assets/images/work/fairmontmountain-min-f18e2b5b.png",
+  "assets/images/work/frhi-min.png": "assets/images/work/frhi-min-01c995c6.png",
+  "assets/images/work/juniperdc-min.png": "assets/images/work/juniperdc-min-c02b273a.png",
+  "assets/images/work/pgaofcanada-min.png": "assets/images/work/pgaofcanada-min-557d956d.png",
+  "assets/images/work/saultsportsmedicine.png": "assets/images/work/saultsportsmedicine-53b822ae.png",
+  "assets/images/work/tongaroom-min.png": "assets/images/work/tongaroom-min-e03375af.png"
 }
